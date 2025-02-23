@@ -9,7 +9,7 @@ package-lock.json
 .resources/
 hugo_stats.json
 .hugo_build.lock
-config.toml
+hugo.toml
 
 # SASS / PostCSS build artifacts
 *.css.map
