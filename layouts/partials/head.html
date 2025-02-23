@@ -1,10 +1,6 @@
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- <title>{{ .Title }}</title> -->
-
-  {{ if eq .Site.Params.env "development" }}
-  <script type="module" src="http://localhost:5174/@vite/client"></script>
-  <script type="module" src="http://localhost:5174/assets/main.js"></script>
-  {{ end }}
-</head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>
+  {{ if .IsHome }} {{ .Site.Title }} {{ else }} {{ .Title }} {{ end }}
+</title>
+{{ partial "dartsass" . }}
