@@ -4,15 +4,11 @@ npm-debug.log
 yarn-error.log
 package-lock.json
 
-# Vite
-dist/
-.vite/
-*.tgz
-
 # Hugo
 /public/
 .resources/
 hugo_stats.json
+.hugo_build.lock
 config.toml
 
 # SASS / PostCSS build artifacts
