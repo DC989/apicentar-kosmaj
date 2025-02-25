@@ -6,7 +6,7 @@ package-lock.json
 
 # Hugo
 /public/
-.resources/
+/resources/
 hugo_stats.json
 .hugo_build.lock
 hugo.toml
