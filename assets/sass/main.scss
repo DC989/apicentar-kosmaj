@@ -4,6 +4,10 @@
 @use "base/main";
 @use "base/footer";
 
+// Soft Ivory (#F8F5E1)
+// Honey Gold (#E8B923)
+// Deep Brown (#5D4037)
+
 body,
 h1,
 h2,
@@ -12,8 +16,21 @@ h4,
 h5,
 h6 {
   font-family: "Arvo";
+  --pico-h-color: white;
+  color: var(--pico-h-color);
 }
 
 p {
   font-family: "Lato";
+  --pico-p-color: white;
+  color: var(--pico-p-color);
+}
+
+button {
+  --pico-button-bg-color: #e8b923;
+  background-color: var(--pico-button-bg-color);
+}
+
+section {
+  margin-bottom: 0;
 }

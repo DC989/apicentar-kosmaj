@@ -51,4 +51,30 @@ main {
       }
     }
   }
+
+  .services {
+    background-color: #f8f5e1;
+    padding: 85px 0 90px;
+
+    &__caption {
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    h2,
+    p {
+      --pico-p-color: #5d4037;
+      color: var(--pico-p-color);
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+        list-style: none;
+      }
+    }
+  }
 }
