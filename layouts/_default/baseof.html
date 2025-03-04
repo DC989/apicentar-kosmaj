@@ -1,11 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     {{ partial "head" . }}
   </head>
   <body>
-    <header>{{ partial "header.html" . }}</header>
-    <main>{{ block "main" . }}{{ end }}</main>
-    <footer>{{ partial "footer.html" . }}</footer>
+    <header class="header">{{ partial "header.html" . }}</header>
+    <main class="main">{{ block "main" . }}{{ end }}</main>
+    <footer class="footer">{{ partial "footer.html" . }}</footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuToggle = document.querySelector(".header__menu-toggle");
+        const navMenu = document.querySelector(".header__nav-menu");
+        const hamburgerOpenIcon = document.querySelector(
+          ".header__menu-toggle-open-icon"
+        );
+        const hamburgerCloseIcon = document.querySelector(
+          ".header__menu-toggle-close-icon"
+        );
+
+        menuToggle.addEventListener("click", function () {
+          if (navMenu.style.maxHeight && navMenu.style.maxHeight !== "0px") {
+            navMenu.style.maxHeight = "0px";
+            hamburgerOpenIcon.style.display = "block";
+            hamburgerCloseIcon.style.display = "none";
+          } else {
+            navMenu.style.maxHeight = navMenu.scrollHeight + "px";
+            hamburgerOpenIcon.style.display = "none";
+            hamburgerCloseIcon.style.display = "block";
+          }
+        });
+      });
+    </script>
   </body>
 </html>

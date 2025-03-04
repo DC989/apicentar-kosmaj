@@ -1,0 +1,54 @@
+@use "../utils/breakpoints" as *;
+
+main {
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+
+  .splash {
+    position: relative;
+    overflow: hidden;
+
+    &__video-wrapper {
+      position: relative;
+      overflow: hidden;
+
+      @include breakpoint("md") {
+        height: 44vw;
+      }
+    }
+
+    &__video {
+      display: block;
+      width: 100%;
+      min-width: 100%;
+      min-height: 100%;
+
+      @include breakpoint("md") {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+
+    &__caption {
+      background-color: #5d4037;
+      padding: 15px;
+      color: #fff !important;
+
+      @include breakpoint("md") {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.55);
+        text-align: center;
+      }
+    }
+  }
+}

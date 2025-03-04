@@ -1,11 +1,32 @@
 {{ define "main" }}
 
-<div class="container">
-  <section>
-    <h1>{{ .Title }}</h1>
-    <p>{{ .Description }}</p>
-  </section>
-  <div>{{ .Content }}</div>
-</div>
+<section class="splash">
+  <div class="splash__video-wrapper">
+    <video
+      autoplay
+      muted
+      loop
+      playsinline
+      poster="/images/cell-2.jpeg"
+      class="splash__video"
+    >
+      <source src="#" type="video/mp4" />
+    </video>
+  </div>
+
+  <div class="splash__caption">
+    <h1>Lorem Ipsum</h1>
+    <p>
+      Aenean tempor mi quis ex faucibus, et porttitor odio efficitur. Aenean ac
+      blandit tortor. Phasellus eget aliquet elit. Nam urna diam, lobortis vel
+      risus in, maximus vestibulum libero. Quisque ultrices enim vulputate
+      finibus malesuada. Nulla at risus at ante eleifend aliquet vel vitae
+      sapien. Aliquam eu tristique diam. Nam venenatis augue tortor, vitae
+      euismod purus condimentum non. Praesent at nibh tortor. Nullam ultricies
+      ultrices libero.
+    </p>
+    <button>Više</button>
+  </div>
+</section>
 
 {{ end }}

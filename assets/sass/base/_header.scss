@@ -1,0 +1,64 @@
+@use "../utils/breakpoints" as *;
+
+header {
+  position: relative;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 15px !important;
+
+  nav {
+    align-items: center;
+
+    button {
+      @include breakpoint("md") {
+        display: none;
+      }
+
+      svg:last-of-type {
+        display: none;
+      }
+    }
+
+    ul:first-of-type {
+      margin: 0 !important;
+
+      li {
+        padding: 0;
+
+        a {
+          max-width: 300px !important;
+          margin: 0 !important;
+          padding: 0 !important;
+        }
+      }
+    }
+
+    ul:last-of-type {
+      @include mobile-only {
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        z-index: 100;
+        background: #fff;
+        margin: -1px 0 0 0;
+        padding: 0;
+        flex-direction: column;
+        align-items: stretch;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in-out;
+      }
+
+      li {
+        a {
+          --pico-color: var(--pico-color);
+
+          @include mobile-only {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
