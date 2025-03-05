@@ -1,1 +1,3 @@
 baseURL = "https://dc989.github.io/apicentar-kosmaj/"
+relativeURLs = true
+uglyURLs = true
