@@ -2962,6 +2962,22 @@ main .services ul {
 main .services ul li {
   list-style: none;
 }
+main .about {
+  padding: 85px 0 90px;
+}
+main .about h2,
+main .about p {
+  --pico-p-color: #5d4037;
+  color: var(--pico-p-color);
+}
+main .gallery {
+  padding: 85px 0 90px;
+}
+main .gallery h2,
+main .gallery p {
+  --pico-p-color: #5d4037;
+  color: var(--pico-p-color);
+}
 
 footer {
   max-width: none !important;
@@ -3004,6 +3020,10 @@ button {
 
 section {
   margin-bottom: 0;
+}
+
+img {
+  border-radius: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */

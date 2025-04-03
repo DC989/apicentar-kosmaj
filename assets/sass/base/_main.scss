@@ -77,4 +77,24 @@ main {
       }
     }
   }
+
+  .about {
+    padding: 85px 0 90px;
+
+    h2,
+    p {
+      --pico-p-color: #5d4037;
+      color: var(--pico-p-color);
+    }
+  }
+
+  .gallery {
+    padding: 85px 0 90px;
+
+    h2,
+    p {
+      --pico-p-color: #5d4037;
+      color: var(--pico-p-color);
+    }
+  }
 }

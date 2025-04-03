@@ -6,6 +6,14 @@
     <description>Recent content on Apicentar Kosmaj</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 10 Mar 2025 19:04:02 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 10 Mar 2025 19:04:02 +0100</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;welcome-to-our-about-page&#34;&gt;Welcome to Our About Page&lt;/h2&gt;&#xA;&lt;p&gt;This is the about page for our website.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

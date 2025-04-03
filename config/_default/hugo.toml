@@ -2,3 +2,9 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Apicentar Kosmaj'
 watch = true
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2

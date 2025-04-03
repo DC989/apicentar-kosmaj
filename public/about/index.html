@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>
+   About 
+</title>
+   
+<link rel="stylesheet" href="/css/main.css" />
+  
+
+
+  </head>
+  <body>
+    <header class="header"><nav>
+  <ul>
+    <li>
+      <a href="http://localhost:1313/"
+        ><img src="http://localhost:1313/images/logo.jpg" alt="Location Map" /></a
+      >
+    </li>
+  </ul>
+
+  <button
+    style="border: 0; padding: 1px 6px; background-color: #e8b923"
+    class="header__menu-toggle"
+    aria-label="Toggle Menu"
+  >
+    <svg
+      class="header__menu-toggle-open-icon"
+      viewBox="0 0 100 80"
+      width="40"
+      height="40"
+    >
+      <rect width="100" height="16" rx="6" y="4" fill="#fff"></rect>
+      <rect width="100" height="16" rx="6" y="32" fill="#fff"></rect>
+      <rect width="100" height="16" rx="6" y="60" fill="#fff"></rect>
+    </svg>
+
+    <svg
+      class="header__menu-toggle-close-icon"
+      viewBox="0 0 100 100"
+      width="40"
+      height="40"
+    >
+      <line
+        x1="20"
+        y1="20"
+        x2="80"
+        y2="80"
+        stroke="#fff"
+        stroke-width="16"
+        stroke-linecap="round"
+      ></line>
+      <line
+        x1="80"
+        y1="20"
+        x2="20"
+        y2="80"
+        stroke="#fff"
+        stroke-width="16"
+        stroke-linecap="round"
+      ></line>
+    </svg>
+  </button>
+  <ul class="header__nav-menu">
+    <li><a href="#" class="">Usluge</a></li>
+    <li><a href="#" class="">O nama</a></li>
+    <li><a href="#" class="">Kontakt</a></li>
+  </ul>
+</nav>
+</header>
+    <main class="main"> <h2 id="welcome-to-our-about-page">Welcome to Our About Page</h2>
+<p>This is the about page for our website.</p>
+
+<p>This line is from <code>layouts/_default/single.html</code>.</p>
+</main>
+    <footer class="footer"><footer>
+  <div class="container">
+    <div class="grid">
+      <div>
+        <h3>Menu</h3>
+        <ul>
+          <li>
+            <a href="#">Usluge</a>
+          </li>
+          <li>
+            <a href="#">O nama</a>
+          </li>
+          <li>
+            <a href="#">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div>apicentarkosmaj@gmail.com</div>
+        <br />
+        <div>+38163270636</div>
+      </div>
+      <div><img src="http://localhost:1313/images/map-img.png" /></div>
+    </div>
+  </div>
+</footer>
+</footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuToggle = document.querySelector(".header__menu-toggle");
+        const navMenu = document.querySelector(".header__nav-menu");
+        const hamburgerOpenIcon = document.querySelector(
+          ".header__menu-toggle-open-icon"
+        );
+        const hamburgerCloseIcon = document.querySelector(
+          ".header__menu-toggle-close-icon"
+        );
+
+        menuToggle.addEventListener("click", function () {
+          if (navMenu.style.maxHeight && navMenu.style.maxHeight !== "0px") {
+            navMenu.style.maxHeight = "0px";
+            hamburgerOpenIcon.style.display = "block";
+            hamburgerCloseIcon.style.display = "none";
+          } else {
+            navMenu.style.maxHeight = navMenu.scrollHeight + "px";
+            hamburgerOpenIcon.style.display = "none";
+            hamburgerCloseIcon.style.display = "block";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
