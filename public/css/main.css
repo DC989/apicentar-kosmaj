@@ -2905,7 +2905,7 @@ main .splash__video-wrapper {
 }
 @media (min-width: 768px) {
   main .splash__video-wrapper {
-    height: 44vw;
+    height: 56vw;
   }
 }
 main .splash__video {
@@ -2957,6 +2957,22 @@ main .services {
 main .services__caption {
   margin-bottom: 50px;
   text-align: center;
+}
+main .services__caption-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  main .services__caption-img--top {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  main .services__caption-img--bottom {
+    display: none;
+  }
 }
 main .services h2,
 main .services p {
@@ -3040,6 +3056,17 @@ h6 {
   color: var(--pico-h-color);
 }
 
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(0%, 1fr));
+  }
+}
+
 p {
   font-family: "Lato";
   color: var(--pico-p-color);
@@ -3061,6 +3088,7 @@ section {
  * element that contains the map. */
 gmp-map {
   height: 100%;
+  min-height: 500px;
 }
 
 /* Optional: Makes the sample page fill the window. */

@@ -14,7 +14,7 @@ main {
       overflow: hidden;
 
       @include breakpoint("md") {
-        height: 44vw;
+        height: 56vw;
       }
     }
 
@@ -68,6 +68,25 @@ main {
     &__caption {
       margin-bottom: 50px;
       text-align: center;
+    }
+
+    &__caption-img {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      &--top {
+        @include breakpoint("md") {
+          display: none;
+        }
+      }
+
+      &--bottom {
+        @include mobile-only {
+          display: none;
+        }
+      }
     }
 
     h2,

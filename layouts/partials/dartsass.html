@@ -4,10 +4,10 @@
 toCSS $opts }} {{ if hugo.IsProduction }} {{ with . | fingerprint }}
 <link
   rel="stylesheet"
-  href="{{ .RelPermalink }}"
+  href="{{ .Permalink }}"
   integrity="{{ .Data.Integrity }}"
   crossorigin="anonymous"
 />
 {{ end }} {{ else }}
-<link rel="stylesheet" href="{{ .RelPermalink }}" />
+<link rel="stylesheet" href="{{ .Permalink }}" />
 {{ end }} {{ end }} {{ end }}

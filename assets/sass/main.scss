@@ -1,4 +1,5 @@
 @use "../../node_modules/@picocss/pico/scss/pico";
+@use "utils/breakpoints" as *;
 @use "utils/fonts";
 @use "base/header";
 @use "base/main";
@@ -27,6 +28,16 @@ h6 {
   color: var(--pico-h-color);
 }
 
+.grid {
+  @include breakpoint("md") {
+    grid-template-columns: 1fr;
+  }
+
+  @include breakpoint("lg") {
+    grid-template-columns: repeat(auto-fit, minmax(0%, 1fr));
+  }
+}
+
 p {
   font-family: "Lato";
   color: var(--pico-p-color);
@@ -48,6 +59,7 @@ section {
  * element that contains the map. */
 gmp-map {
   height: 100%;
+  min-height: 500px;
 }
 
 /* Optional: Makes the sample page fill the window. */
