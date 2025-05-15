@@ -50,8 +50,14 @@
     </svg>
   </button>
   <ul class="header__nav-menu">
-    <li><a href="#" class="">Usluge</a></li>
-    <li><a href="#" class="">O nama</a></li>
-    <li><a href="#" class="">Kontakt</a></li>
+    <li><a href="{{ .Site.BaseURL }}" class="contrast">Почетна</a></li>
+    {{/*
+    <li><a href="/therapies" class="contrast">Терапије</a></li>
+    */}}
+    <li><a href="/therapies" class="contrast">Терапије</a></li>
+    <li><a href="/services" class="contrast">Услуге</a></li>
+    {{/*
+    <li><a href="/contact" class="contrast">Контакт</a></li>
+    */}}
   </ul>
 </nav>

@@ -6,7 +6,15 @@
 
 // Soft Ivory (#F8F5E1)
 // Honey Gold (#E8B923)
-// Deep Brown (#5D4037)
+// Deep Brown (#643A00)
+
+:root {
+  --pico-bg-color: #f8f5e1;
+  --pico-h-color: #643a00;
+  --pico-p-color: #643a00;
+  --pico-white-color: #fff;
+  --pico-button-bg-color: #e8b923;
+}
 
 body,
 h1,
@@ -16,25 +24,36 @@ h4,
 h5,
 h6 {
   font-family: "Arvo";
-  --pico-h-color: white;
   color: var(--pico-h-color);
 }
 
 p {
   font-family: "Lato";
-  --pico-p-color: white;
   color: var(--pico-p-color);
 }
 
-button {
-  --pico-button-bg-color: #e8b923;
+button,
+a[role="button"] {
+  border: 0;
+  border-radius: 0;
   background-color: var(--pico-button-bg-color);
+  color: var(--pico-h-color);
 }
 
 section {
   margin-bottom: 0;
 }
 
-img {
-  border-radius: 30px;
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+gmp-map {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }

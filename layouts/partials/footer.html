@@ -1,26 +1,25 @@
-<footer>
-  <div class="container">
-    <div class="grid">
-      <div>
-        <h3>Menu</h3>
+<div class="container">
+  <div class="grid">
+    <div>
+      <nav>
         <ul>
-          <li>
-            <a href="#">Usluge</a>
-          </li>
-          <li>
-            <a href="#">O nama</a>
-          </li>
-          <li>
-            <a href="#">Kontakt</a>
-          </li>
+          <li><a href="{{ .Site.BaseURL }}" class="contrast">Почетна</a></li>
+          {{/*
+          <li><a href="/therapies" class="contrast">Терапије</a></li>
+          */}}
+          <li><a href="/therapies" class="contrast">Терапије</a></li>
+          <li><a href="/services" class="contrast">Услуге</a></li>
+          {{/*
+          <li><a href="/contact" class="contrast">Контакт</a></li>
+          */}}
         </ul>
-      </div>
-      <div>
-        <div>apicentarkosmaj@gmail.com</div>
-        <br />
-        <div>+38163270636</div>
-      </div>
-      <div><img src="{{ "images/map-img.png" | absURL }}" /></div>
+      </nav>
+    </div>
+
+    <div>
+      <div>apicentarkosmaj@gmail.com</div>
+      <br />
+      <div>+38163270636</div>
     </div>
   </div>
-</footer>
+</div>

@@ -1,9 +1,5 @@
 +++
-date = '2025-03-10T19:04:02+01:00'
+date = '2025-04-18T15:17:13+02:00'
 draft = false
 title = 'About'
 +++
-
-## Welcome to Our About Page
-
-This is the about page for our website.
