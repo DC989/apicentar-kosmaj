@@ -16,6 +16,10 @@ main {
       @include breakpoint("md") {
         height: 56vw;
       }
+
+      @include breakpoint("xl") {
+        height: 45vw;
+      }
     }
 
     &__video {
@@ -75,17 +79,19 @@ main {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+    }
 
-      &--top {
-        @include breakpoint("md") {
-          display: none;
-        }
+    &__caption-img--top {
+      @include breakpoint("lg") {
+        display: none;
       }
+    }
 
-      &--bottom {
-        @include mobile-only {
-          display: none;
-        }
+    &__caption-img--bottom {
+      display: none;
+
+      @include breakpoint("lg") {
+        display: flex;
       }
     }
 

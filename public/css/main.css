@@ -2908,6 +2908,11 @@ main .splash__video-wrapper {
     height: 56vw;
   }
 }
+@media (min-width: 1280px) {
+  main .splash__video-wrapper {
+    height: 45vw;
+  }
+}
 main .splash__video {
   display: block;
   width: 100%;
@@ -2964,14 +2969,17 @@ main .services__caption-img {
   justify-content: center;
   align-items: center;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   main .services__caption-img--top {
     display: none;
   }
 }
-@media (max-width: 767px) {
+main .services__caption-img--bottom {
+  display: none;
+}
+@media (min-width: 1024px) {
   main .services__caption-img--bottom {
-    display: none;
+    display: flex;
   }
 }
 main .services h2,
