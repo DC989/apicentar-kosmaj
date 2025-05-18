@@ -4,6 +4,16 @@
     {{ partial "head" . }}
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-K2JPVQBZ"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header class="header">{{ partial "header.html" . }}</header>
     <main class="main">{{ block "main" . }}{{ end }}</main>
     <footer class="footer">{{ partial "footer.html" . }}</footer>
