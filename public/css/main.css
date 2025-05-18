@@ -2860,7 +2860,7 @@ header nav ul:first-of-type li {
   padding: 0;
 }
 header nav ul:first-of-type li a {
-  max-width: 300px !important;
+  max-width: 200px !important;
   margin: 0 !important;
   padding: 0 !important;
 }
