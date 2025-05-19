@@ -2967,7 +2967,7 @@ main .services__caption-img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
 }
 @media (min-width: 1024px) {
   main .services__caption-img--top {
