@@ -1,0 +1,49 @@
+@use "../utils/breakpoints" as *;
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  color: #643a00 !important;
+}
+
+p {
+  color: #643a00 !important;
+}
+
+.grid {
+  @include breakpoint("md") {
+    grid-template-columns: 1fr;
+  }
+
+  @include breakpoint("lg") {
+    grid-template-columns: repeat(auto-fit, minmax(0%, 1fr));
+  }
+}
+
+button,
+a[role="button"] {
+  border: 0;
+  border-radius: 0;
+  background-color: var(--pico-button-bg-color);
+  color: var(--pico-color);
+}
+
+section {
+  margin-bottom: 0;
+}
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+gmp-map {
+  height: 100%;
+  min-height: 500px;
+}

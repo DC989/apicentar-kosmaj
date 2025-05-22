@@ -37,7 +37,7 @@ main {
 
     &__caption {
       background-color: #643a00;
-      padding: 15px;
+      padding: 16px;
 
       @include breakpoint("md") {
         position: absolute;
@@ -128,12 +128,6 @@ main {
       padding: 85px 0 90px;
     }
 
-    h2,
-    p {
-      --pico-p-color: #643a00;
-      color: var(--pico-p-color);
-    }
-
     &__caption {
       ul {
         margin: 0;
@@ -142,12 +136,8 @@ main {
 
       li {
         list-style: circle;
-        color: var(--pico-p-color);
+        color: #643a00 !important;
       }
     }
   }
-}
-
-.footer {
-  color: var(--pico-white-color);
 }

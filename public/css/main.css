@@ -2836,11 +2836,60 @@ textarea,
   --pico-button-bg-color: #e8b923;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  color: #643a00 !important;
+}
+
+p {
+  color: #643a00 !important;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(0%, 1fr));
+  }
+}
+
+button,
+a[role=button] {
+  border: 0;
+  border-radius: 0;
+  background-color: var(--pico-button-bg-color);
+  color: var(--pico-color);
+}
+
+section {
+  margin-bottom: 0;
+}
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+gmp-map {
+  height: 100%;
+  min-height: 500px;
+}
+
 header {
   position: relative;
   max-width: none !important;
   margin: 0 !important;
-  padding: 15px !important;
+  padding: 16px !important;
 }
 header nav {
   align-items: center;
@@ -2928,7 +2977,7 @@ main .splash__video {
 }
 main .splash__caption {
   background-color: #643a00;
-  padding: 15px;
+  padding: 16px;
 }
 @media (min-width: 768px) {
   main .splash__caption {
@@ -3011,28 +3060,20 @@ main .about {
     padding: 85px 0 90px;
   }
 }
-main .about h2,
-main .about p {
-  --pico-p-color: #643a00;
-  color: var(--pico-p-color);
-}
 main .about__caption ul {
   margin: 0;
   list-style: none;
 }
 main .about__caption li {
   list-style: circle;
-  color: var(--pico-p-color);
-}
-
-.footer {
-  color: var(--pico-white-color);
+  color: #643a00 !important;
 }
 
 footer {
   max-width: none !important;
   margin: 0 !important;
   background-color: #643a00;
+  color: #fff !important;
 }
 footer ul {
   margin: 0;
@@ -3042,55 +3083,7 @@ footer ul li {
   list-style: none;
 }
 footer ul li a {
-  color: #fff;
-}
-
-* {
-  color: #643a00 !important;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Playfair Display", serif;
-}
-
-@media (min-width: 768px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-}
-@media (min-width: 1024px) {
-  .grid {
-    grid-template-columns: repeat(auto-fit, minmax(0%, 1fr));
-  }
-}
-
-button,
-a[role=button] {
-  border: 0;
-  border-radius: 0;
-  background-color: var(--pico-button-bg-color);
-  color: var(--pico-color);
-}
-
-section {
-  margin-bottom: 0;
-}
-
-/* Always set the map height explicitly to define the size of the div
- * element that contains the map. */
-gmp-map {
-  height: 100%;
-  min-height: 500px;
+  color: #fff !important;
 }
 
 /*# sourceMappingURL=main.css.map */

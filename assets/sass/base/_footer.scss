@@ -2,6 +2,7 @@ footer {
   max-width: none !important;
   margin: 0 !important;
   background-color: #643a00;
+  color: #fff !important;
 
   ul {
     margin: 0;
@@ -11,7 +12,7 @@ footer {
       list-style: none;
 
       a {
-        color: #fff;
+        color: #fff !important;
       }
     }
   }
