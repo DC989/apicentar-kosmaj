@@ -2773,69 +2773,69 @@ textarea,
   }
 }
 @font-face {
-  font-family: "Arvo";
-  src: url("../fonts/Arvo-Bold.eot");
-  src: url("../fonts/Arvo-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Arvo-Bold.woff2") format("woff2"), url("../fonts/Arvo-Bold.woff") format("woff"), url("../fonts/Arvo-Bold.ttf") format("truetype");
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Bold.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Arvo";
-  src: url("../fonts/Arvo-BoldItalic.eot");
-  src: url("../fonts/Arvo-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Arvo-BoldItalic.woff2") format("woff2"), url("../fonts/Arvo-BoldItalic.woff") format("woff"), url("../fonts/Arvo-BoldItalic.ttf") format("truetype");
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-BoldItalic.woff2") format("woff2"), url("../fonts/PlayfairDisplay-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: "Arvo";
-  src: url("../fonts/Arvo-Italic.eot");
-  src: url("../fonts/Arvo-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Arvo-Italic.woff2") format("woff2"), url("../fonts/Arvo-Italic.woff") format("woff"), url("../fonts/Arvo-Italic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Arvo";
-  src: url("../fonts/Arvo.eot");
-  src: url("../fonts/Arvo.eot?#iefix") format("embedded-opentype"), url("../fonts/Arvo.woff2") format("woff2"), url("../fonts/Arvo.woff") format("woff"), url("../fonts/Arvo.ttf") format("truetype");
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Lato";
-  src: url("../fonts/Lato-Bold.eot");
-  src: url("../fonts/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold.ttf") format("truetype");
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Italic.woff2") format("woff2"), url("../fonts/PlayfairDisplay-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Lato";
-  src: url("../fonts/Lato-BoldItalic.eot");
-  src: url("../fonts/Lato-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-BoldItalic.woff2") format("woff2"), url("../fonts/Lato-BoldItalic.woff") format("woff"), url("../fonts/Lato-BoldItalic.ttf") format("truetype");
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-BoldItalic.woff2") format("woff2"), url("../fonts/Roboto-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: "Lato";
-  src: url("../fonts/Lato-Italic.eot");
-  src: url("../fonts/Lato-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Italic.woff2") format("woff2"), url("../fonts/Lato-Italic.woff") format("woff"), url("../fonts/Lato-Italic.ttf") format("truetype");
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Italic.woff2") format("woff2"), url("../fonts/Roboto-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
-@font-face {
-  font-family: "Lato";
-  src: url("../fonts/Lato-Regular.eot");
-  src: url("../fonts/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+:root {
+  --pico-bg-color: #f8f5e1;
+  --pico-h-color: #643a00;
+  --pico-color: #643a00;
+  --pico-white-color: #fff;
+  --pico-button-bg-color: #e8b923;
 }
+
 header {
   position: relative;
   max-width: none !important;
@@ -2967,7 +2967,7 @@ main .services__caption-img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
+  align-items: center;
 }
 @media (min-width: 1024px) {
   main .services__caption-img--top {
@@ -3045,23 +3045,22 @@ footer ul li a {
   color: #fff;
 }
 
-:root {
-  --pico-bg-color: #f8f5e1;
-  --pico-h-color: #643a00;
-  --pico-p-color: #643a00;
-  --pico-white-color: #fff;
-  --pico-button-bg-color: #e8b923;
+* {
+  color: #643a00 !important;
 }
 
-body,
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Arvo";
-  color: var(--pico-h-color);
+  font-family: "Playfair Display", serif;
 }
 
 @media (min-width: 768px) {
@@ -3075,17 +3074,12 @@ h6 {
   }
 }
 
-p {
-  font-family: "Lato";
-  color: var(--pico-p-color);
-}
-
 button,
 a[role=button] {
   border: 0;
   border-radius: 0;
   background-color: var(--pico-button-bg-color);
-  color: var(--pico-h-color);
+  color: var(--pico-color);
 }
 
 section {
@@ -3097,14 +3091,6 @@ section {
 gmp-map {
   height: 100%;
   min-height: 500px;
-}
-
-/* Optional: Makes the sample page fill the window. */
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

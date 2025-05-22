@@ -1,31 +1,27 @@
 @use "../../node_modules/@picocss/pico/scss/pico";
 @use "utils/breakpoints" as *;
 @use "utils/fonts";
+@use "utils/variables";
 @use "base/header";
 @use "base/main";
 @use "base/footer";
 
-// Soft Ivory (#F8F5E1)
-// Honey Gold (#E8B923)
-// Deep Brown (#643A00)
-
-:root {
-  --pico-bg-color: #f8f5e1;
-  --pico-h-color: #643a00;
-  --pico-p-color: #643a00;
-  --pico-white-color: #fff;
-  --pico-button-bg-color: #e8b923;
+* {
+  color: #643a00 !important;
 }
 
-body,
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Arvo";
-  color: var(--pico-h-color);
+  font-family: "Playfair Display", serif;
 }
 
 .grid {
@@ -38,17 +34,12 @@ h6 {
   }
 }
 
-p {
-  font-family: "Lato";
-  color: var(--pico-p-color);
-}
-
 button,
 a[role="button"] {
   border: 0;
   border-radius: 0;
   background-color: var(--pico-button-bg-color);
-  color: var(--pico-h-color);
+  color: var(--pico-color);
 }
 
 section {
@@ -60,12 +51,4 @@ section {
 gmp-map {
   height: 100%;
   min-height: 500px;
-}
-
-/* Optional: Makes the sample page fill the window. */
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
 }

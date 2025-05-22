@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apicentar Kosmaj</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:59585/</link>
     <description>Recent content on Apicentar Kosmaj</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 May 2025 16:01:59 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:59585/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Services</title>
-      <link>http://localhost:1313/services/</link>
+      <link>http://localhost:59585/services/</link>
       <pubDate>Thu, 15 May 2025 16:01:59 +0200</pubDate>
-      <guid>http://localhost:1313/services/</guid>
+      <guid>http://localhost:59585/services/</guid>
       <description>&lt;h2 id=&#34;рад-у-aпикомори&#34;&gt;Рад у aпикомори&lt;/h2&gt;&#xA;&lt;p&gt;Искористите мир и благотворну атмосферу апикоморе за продуктиван рад. Окружени природним звуцима пчела, ваздухом обогаћеним биоактивним супстанцама и негативним јонима, радите у окружењу које подстиче концентрацију, креативност и менталну јасноћу. Уз то, обезбеђен је оптички интернет велике брзине, омогућавајући вам несметан рад, видео конференције и онлајн комуникацију без прекида. Ова јединствена комбинација природе и технологије смањује стрес, побољшава оксигенацију мозга и доприноси унутрашњем балансу.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ноћење-у-апикомори&#34;&gt;Ноћење у апикомори&lt;/h2&gt;&#xA;&lt;p&gt;Доживите потпуно опуштање уз ноћење у апикомори, где умирујући звук кошнице, ваздух обогаћен природним аеросолима и негативним јонима подстичу дубок сан и регенерацију тела. Негативни јони помажу у неутрализацији стреса, побољшавају квалитет ваздуха и подстичу опште благостање, остављајући вас освеженим и пуним енергије након сваког боравка.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Therapies</title>
-      <link>http://localhost:1313/therapies/</link>
+      <link>http://localhost:59585/therapies/</link>
       <pubDate>Thu, 15 May 2025 14:54:11 +0200</pubDate>
-      <guid>http://localhost:1313/therapies/</guid>
+      <guid>http://localhost:59585/therapies/</guid>
       <description>&lt;h2 id=&#34;ваздух-из-кошнице&#34;&gt;Ваздух из кошнице&lt;/h2&gt;&#xA;&lt;p&gt;Ваздух из пчелиње кошнице богат је природним аеросолима и биоактивним супстанцама које имају антисептичка, антиоксидативна и регенеративна својства. Ове супстанце позитивно делују на дисајне путеве, имуни и нервни систем, смањују упале и подстичу опуштање. При удисању, активне супстанце се апсорбују у тело, побољшавајући метаболизам, респираторне функције и смањујући стрес. Комбинација природне ароматерапије и умирујућег звука пчела доприноси бољем сну, већој концентрацији и менталном благостању.&lt;/p&gt;&#xA;&lt;h2 id=&#34;вибрације&#34;&gt;Вибрације&lt;/h2&gt;&#xA;&lt;p&gt;Вибрације које пчеле емитују у фреквенцији од 200-400 Hz делују као природна микро-масажа тела, повољно утичући на зглобове, мишићно ткиво и регенерацију ћелија. Аура пчелиње заједнице ствара умирујуће и исцелитељско окружење, подстичући дубоку релаксацију и унапређење општег здравља. Лежање на кошницама у трајању од 60 минута има ефекат сличан осмочасовном сну, доприносећи обнови организма и повећању енергије.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:59585/about/</link>
       <pubDate>Fri, 18 Apr 2025 15:17:13 +0200</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://localhost:59585/about/</guid>
       <description></description>
     </item>
   </channel>
