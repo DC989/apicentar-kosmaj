@@ -81,17 +81,29 @@ main {
       align-items: center;
     }
 
-    &__caption-img--top {
+    &__caption-img--mobile-visible {
       @include breakpoint("lg") {
         display: none;
       }
     }
 
-    &__caption-img--bottom {
+    &__caption-img--mobile-hidden {
       display: none;
 
       @include breakpoint("lg") {
         display: flex;
+      }
+    }
+
+    &__caption-img--align-right {
+      @include breakpoint("lg") {
+        align-items: end;
+      }
+    }
+
+    &__caption-img--align-left {
+      @include breakpoint("lg") {
+        align-items: start;
       }
     }
 

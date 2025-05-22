@@ -3019,16 +3019,26 @@ main .services__caption-img {
   align-items: center;
 }
 @media (min-width: 1024px) {
-  main .services__caption-img--top {
+  main .services__caption-img--mobile-visible {
     display: none;
   }
 }
-main .services__caption-img--bottom {
+main .services__caption-img--mobile-hidden {
   display: none;
 }
 @media (min-width: 1024px) {
-  main .services__caption-img--bottom {
+  main .services__caption-img--mobile-hidden {
     display: flex;
+  }
+}
+@media (min-width: 1024px) {
+  main .services__caption-img--align-right {
+    align-items: end;
+  }
+}
+@media (min-width: 1024px) {
+  main .services__caption-img--align-left {
+    align-items: start;
   }
 }
 main .services h2,
