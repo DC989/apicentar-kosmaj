@@ -1,0 +1,71 @@
+{{ define "main" }}
+<div style="padding: 50px 0" class="gallery">
+  <div class="container">
+    <h2>Галерија</h2>
+
+    <div class="row">
+      <div class="column">
+        <img class="gallery__img" src="{{ "images/gallery/img-1.jpeg" | absURL
+        }}" /> <img class="gallery__img" src="{{ "images/gallery/img-2.jpeg" |
+        absURL }}" /> <img class="gallery__img" src="{{
+        "images/gallery/img-3.jpeg" | absURL }}" /> <img class="gallery__img"
+        src="{{ "images/gallery/img-4.jpeg" | absURL }}" /> <img
+        class="gallery__img" src="{{ "images/gallery/img-5.jpeg" | absURL }}" />
+        <img class="gallery__img" src="{{ "images/gallery/img-6.jpeg" | absURL
+        }}" /> <img class="gallery__img" src="{{ "images/gallery/img-7.jpeg" |
+        absURL }}" /> <img class="gallery__img" src="{{
+        "images/gallery/img-27.jpeg" | absURL }}" />
+      </div>
+      <div class="column">
+        <img class="gallery__img" src="{{ "images/gallery/img-24.jpeg" | absURL
+        }}" /> <img class="gallery__img" src="{{ "images/gallery/img-8.jpeg" |
+        absURL }}" /> <img class="gallery__img" src="{{
+        "images/gallery/img-9.jpeg" | absURL }}" /> <img class="gallery__img"
+        src="{{ "images/gallery/img-10.jpeg" | absURL }}" /> <img
+        class="gallery__img" src="{{ "images/gallery/img-11.jpeg" | absURL }}"
+        /> <img class="gallery__img" src="{{ "images/gallery/img-12.jpeg" |
+        absURL }}" /> <img class="gallery__img" src="{{
+        "images/gallery/img-28.jpeg" | absURL }}" />
+      </div>
+      <div class="column">
+        <img class="gallery__img" src="{{ "images/gallery/img-25.jpeg" | absURL
+        }}" /> <img class="gallery__img" src="{{ "images/gallery/img-13.jpeg" |
+        absURL }}" /> <img class="gallery__img" src="{{
+        "images/gallery/img-14.jpeg" | absURL }}" /> <img class="gallery__img"
+        src="{{ "images/gallery/img-15.jpeg" | absURL }}" /> <img
+        class="gallery__img" src="{{ "images/gallery/img-16.jpeg" | absURL }}"
+        /> <img class="gallery__img" src="{{ "images/gallery/img-17.jpeg" |
+        absURL }}" /> <img class="gallery__img" src="{{
+        "images/gallery/img-18.jpeg" | absURL }}" /> <img class="gallery__img"
+        src="{{ "images/gallery/img-29.jpeg" | absURL }}" />
+      </div>
+      <div class="column">
+        <img class="gallery__img" src="{{ "images/gallery/img-26.jpeg" | absURL
+        }}" /> <img class="gallery__img" src="{{ "images/gallery/img-19.jpeg" |
+        absURL }}" /> <img class="gallery__img" src="{{
+        "images/gallery/img-20.jpeg" | absURL }}" /> <img class="gallery__img"
+        src="{{ "images/gallery/img-21.jpeg" | absURL }}" /> <img
+        class="gallery__img" src="{{ "images/gallery/img-22.jpeg" | absURL }}"
+        /> <img class="gallery__img" src="{{ "images/gallery/img-23.jpeg" |
+        absURL }}" /> <img class="gallery__img" src="{{
+        "images/gallery/img-30.jpeg" | absURL }}" /> <img class="gallery__img"
+        src="{{ "images/gallery/img-31.jpeg" | absURL }}" /> <img
+        class="gallery__img" src="{{ "images/gallery/img-32.jpeg" | absURL }}"
+        />
+      </div>
+    </div>
+  </div>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01" />
+
+    <!-- Modal Caption (Image Text) -->
+    <!-- <div id="caption"></div> -->
+  </div>
+</div>
+{{ end }}
