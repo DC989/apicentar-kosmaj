@@ -1,9 +1,9 @@
 <nav>
   <ul>
     <li>
-      <a href="{{ .Site.BaseURL }}"
-        ><img src="{{ "images/logo.jpg" | absURL }}" alt="Location Map" /></a
-      >
+      <a href="{{ "/" | relLangURL }}">
+        <img src="{{ "images/logo.jpg" | absURL }}" alt="Apicentar Kosmaj logo" />
+      </a>
     </li>
   </ul>
 
@@ -49,16 +49,24 @@
       ></line>
     </svg>
   </button>
+
   <ul class="header__nav-menu">
-    <li><a href="{{ .Site.BaseURL }}" class="contrast">Почетна</a></li>
-    {{/*
-    <li><a href="/therapies" class="contrast">Терапије</a></li>
-    */}}
-    <li><a href="/therapies" class="contrast">Терапије</a></li>
-    <li><a href="/services" class="contrast">Услуге</a></li>
-    <li><a href="/gallery" class="contrast">Галерија</a></li>
-    {{/*
-    <li><a href="/contact" class="contrast">Контакт</a></li>
-    */}}
+    {{ range .Site.Menus.main }}
+    <li><a href="{{ .URL | relLangURL }}" class="contrast">{{ .Name }}</a></li>
+    {{ end }}
+  </ul>
+
+  <ul>
+    {{ range .Site.Languages }} {{ if ne $.Site.Language.Lang .Lang }} {{
+    $translatedPages := where $.Page.Translations "Lang" "eq" .Lang }} {{
+    $translated := index $translatedPages 0 }}
+    <li>
+      {{ if $translated }}
+      <a href="{{ $translated.RelPermalink }}" class="contrast">{{ .LanguageName }}</a>
+      {{ else }}
+      <a href="{{ .Lang | relLangURL }}" class="contrast">{{ .LanguageName }}</a>
+      {{ end }}
+    </li>
+    {{ end }} {{ end }}
   </ul>
 </nav>

@@ -1,0 +1,111 @@
+# Index page translations for a website in Serbian
+# .splash section
+- id: index_title
+  translation: "Апитерапија у служби здравља"
+
+- id: index_subtitle
+  translation: "Апитерапија је грана комплементарне и алтернативне медицине која користи пчелиње производе, укључујући мед, полен, пчелињи хлеб, прополис, матични млеч, пчелињи восак, пчелињи отров, звука, вибрација и ларве пчела."
+
+# .therapies section
+- id: therapies_title
+  translation: "Терапије у апицентру"
+
+- id: therapies_subtitle
+  translation: "Искусите моћне благодати пчелиње заједнице и осетите позитиван утицај апитерапије на ваше здравље."
+
+- id: therapy_hive_air_title
+  translation: "Ваздух из кошнице"
+
+- id: therapy_hive_air_description
+  translation: "Удисање ваздуха из кошнице, богатог природним аеросолима и биоактивним супстанцама, повољно делује на дисајне путеве, нервни систем и целокупно психофизичко здравље."
+
+- id: therapy_vibrations_title
+  translation: "Вибрације"
+
+- id: therapy_vibrations_description
+  translation: "Вибрације пчела делују као природна микро-масажа која подстиче регенерацију тела, дубоку релаксацију и обнову енергије, с ефектом који се пореди са осмочасовним сном."
+
+- id: therapy_sound_title
+  translation: "Звук"
+
+- id: therapy_sound_description
+  translation: "Звук кошнице, налик белом шуму, делује смирујуће на тело и ум, смањује стрес и подстиче менталну јасноћу."
+
+- id: therapy_negative_ions_title
+  translation: "Негативни јони"
+
+- id: therapy_negative_ions_description
+  translation: "Негативни јони из ваздуха око кошнице подстичу детоксикацију, јачају имунитет и доприносе бољем сну и менталном балансу."
+
+# .services section
+- id: services_title
+  translation: "Иновативне услуге у свету апитерапије"
+
+- id: service_working_in_the_apichamber_title
+  translation: "Рад у aпикомори"
+
+- id: service_working_in_the_apichamber_description
+  translation: "Рад у апикомори спаја благотворно дејство природе и брзу интернет конекцију, подстичући концентрацију, креативност и унутрашњи баланс."
+
+- id: service_overnight_stay_in_the_apichamber_title
+  translation: "Преноћиште у aпикомори"
+
+- id: service_overnight_stay_in_the_apichamber_description
+  translation: "Ноћење у апикомори омогућава дубок сан и регенерацију организма захваљујући умирујућем звуку кошнице и ваздуху богатом природним аеросолима и негативним јонима."
+
+- id: service_vocal_cords_recovery_treatment_title
+  translation: "Третман за oпоравак гласних жица"
+
+- id: service_vocal_cords_recovery_treatment_description
+  translation: "Апикоморе омогућавају природну хидратацију и опоравак гласних жица, идеалну за певаче, глумце и све који интензивно користе свој глас."
+
+- id: service_team_building_title
+  translation: "Тим билдинг"
+
+- id: service_team_building_description
+  translation: "Тим билдинг у апикомори спаја природно окружење и елементе апитерапије са активностима које јачају сарадњу, концентрацију и тимски дух."
+
+- id: service_pulmonologist_check_up_in_the_apichamber_title
+  translation: "Преглед пулмолога"
+
+- id: service_pulmonologist_check_up_in_the_apichamber_description
+  translation: "Специјална услуга прегледа пулмолога омогућава индивидуалну процену респираторног здравља и препоруке за терапију у складу са благотворним ефектима апикоморе."
+
+# .about section
+- id: about_title
+  translation: "О нама"
+
+- id: about_subtitle
+  translation: "Наш апицентар је јединствено место које спаја древна знања о благотворним ефектима пчелиње заједнице са савременим технолошким решењима за очување здравља и добробити. У окружењу испуњеном природним аеросолима, негативним јонима и умирујућим звуком кошница, пружамо простор за опуштање, регенерацију и рад."
+
+- id: about_caption_title
+  translation: "Техничке карактеристике центра"
+
+- id: about_caption_feature_item_1
+  translation: "Апикоморе су специјално дизајнирани објекти од белог бора, изоловани овчијом вуном, са унутрашњом облогом од прополиса и еколошким премазом за природну заштиту и здраву микроклиму."
+
+- id: about_caption_feature_item_2
+  translation: "Оптички интернет обезбеђује брзу и стабилну конекцију за несметан рад у природи."
+
+- id: about_caption_feature_item_3
+  translation: "Апикоморе су пројектоване тако да буду приступачне свима, укључујући особе у инвалидским колицима. Захваљујући мобилним рампама, омогућен је несметан приступ и удобно коришћење простора."
+
+# Navigation links translations for a website in Serbian
+- id: home
+  translation: "Почетна"
+
+- id: therapies
+  translation: "Терапије"
+
+- id: services
+  translation: "Услуге"
+
+- id: gallery
+  translation: "Галерија"
+
+# Buttons translations for a website in Serbian
+- id: go_to_services
+  translation: "Сазнај више"
+
+- id: go_to_therapies
+  translation: "Сазнај више"

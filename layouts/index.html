@@ -15,56 +15,44 @@
   </div>
 
   <div class="splash__caption">
-      <h1>Апитерапија у служби здравља</h1>
-      <p>
-        Апитерапија је грана комплементарне и алтернативне медицине која користи пчелиње производе, укључујући мед, полен, пчелињи хлеб, прополис, матични млеч, пчелињи восак, пчелињи отров, звука, вибрација и ларве пчела.
-      </p>
+      <h1>{{ i18n "index_title" }}</h1>
+      <p>{{ i18n "index_subtitle" }}</p>
   </div>
 </section>
 
-<section class="services">
+<section class="therapies">
   <div class="container">
-    <div class="services__caption">
-      <h2>Терапије у апицентру</h2>
-      <p>
-        Искусите моћне благодати пчелиње заједнице и осетите позитиван утицај апитерапије на ваше здравље.
-      </p>
+    <div class="therapies__caption">
+      <h2>{{ i18n "therapies_title" }}</h2>
+      <p>{{ i18n "therapies_subtitle" }}</p>
     </div>
 
     <div class="grid">
-      <div class="services__caption-img services__caption-img--align-right">
+      <div class="therapies__caption-img therapies__caption-img--align-right">
         <img style="max-width: 455px;" src="{{ "images/therapies-resizeee.jpeg" | absURL }}" alt="a kid doing hive air inhalation" />
       </div>
 
-      <div class="services__caption-text">
+      <div class="therapies__caption-text">
         <ul>
           <li>
-            <h2>Ваздух из кошнице</h2>
-            <p>
-              Удисање ваздуха из кошнице, богатог природним аеросолима и биоактивним супстанцама, повољно делује на дисајне путеве, нервни систем и целокупно психофизичко здравље.
-            </p>
+            <h2>{{ i18n "therapy_hive_air_title" }}</h2>
+            <p>{{ i18n "therapy_hive_air_description" }}</p>
           </li>
           <li>
-            <h2>Вибрације</h2>
-            <p>
-              Вибрације пчела делују као природна микро-масажа која подстиче регенерацију тела, дубоку релаксацију и обнову енергије, с ефектом који се пореди са осмочасовним сном.
-            </p>
+            <h2>{{ i18n "therapy_vibrations_title" }}</h2>
+            <p>{{ i18n "therapy_vibrations_description" }}</p>
           </li>
           <li>
-            <h2>Звук</h2>
-            <p>
-              Звук кошнице, налик белом шуму, делује смирујуће на тело и ум, смањује стрес и подстиче менталну јасноћу.
-            </p>
+            <h2>{{ i18n "therapy_sound_title" }}</h2>
+            <p>{{ i18n "therapy_sound_description" }}</p>
           </li>
           <li>
-            <h2>Негативни јони</h2>
-            <p>
-              Негативни јони из ваздуха око кошнице подстичу детоксикацију, јачају имунитет и доприносе бољем сну и менталном балансу.
-            </p>
+            <h2>{{ i18n "therapy_negative_ions_title" }}</h2>
+            <p>{{ i18n "therapy_negative_ions_description" }}</p>
           </li>
         </ul>
 
-        <a role="button" tabindex="0" href="/therapies" style="align-self: flex-start;">Сазнај више</a>
+        <a role="button" tabindex="0" href="{{ "/therapies/" | relLangURL }}" style="align-self: flex-start;">{{ i18n "go_to_therapies" }}</a>
       </div>
     </div>
   </div>
@@ -73,7 +61,7 @@
 <section class="services">
   <div class="container">
     <div class="services__caption">
-      <h2>Иновативне услуге у свету апитерапије</h2>
+      <h2>{{ i18n "services_title" }}</h2>
     </div>
 
     <div class="grid">
@@ -84,38 +72,28 @@
       <div class="services__caption-text">
         <ul>
           <li>
-            <h2>Рад у aпикомори</h2>
-            <p>
-              Рад у апикомори спаја благотворно дејство природе и брзу интернет конекцију, подстичући концентрацију, креативност и унутрашњи баланс.
-            </p>
+            <h2>{{ i18n "service_working_in_the_apichamber_title" }}</h2>
+            <p>{{ i18n "service_working_in_the_apichamber_description" }}</p>
           </li>
           <li>
-            <h2>Ноћење у апикомори</h2>
-            <p>
-              Ноћење у апикомори омогућава дубок сан и регенерацију организма захваљујући умирујућем звуку кошнице и ваздуху богатом природним аеросолима и негативним јонима.
-            </p>
+            <h2>{{ i18n "service_overnight_stay_in_the_apichamber_title" }}</h2>
+            <p>{{ i18n "service_overnight_stay_in_the_apichamber_description" }}</p>
           </li>
           <li>
-            <h2>Третман за oпоравак гласних жица</h2>
-            <p>
-              Апикоморе омогућавају природну хидратацију и опоравак гласних жица, идеалну за певаче, глумце и све који интензивно користе свој глас.
-            </p>
+            <h2>{{ i18n "service_vocal_cords_recovery_treatment_title" }}</h2>
+            <p>{{ i18n "service_vocal_cords_recovery_treatment_description" }}</p>
           </li>
           <li>
-            <h2>Тим билдинг</h2>
-            <p>
-              Тим билдинг у апикомори спаја природно окружење и елементе апитерапије са активностима које јачају сарадњу, концентрацију и тимски дух.
-            </p>
+            <h2>{{ i18n "service_team_building_title" }}</h2>
+            <p>{{ i18n "service_team_building_description" }}</p>
           </li>
           <li>
-            <h2>Преглед пулмолога у aпикомори</h2>
-            <p>
-              Специјална услуга прегледа пулмолога омогућава индивидуалну процену респираторног здравља и препоруке за терапију у складу са благотворним ефектима апикоморе.
-            </p>
+            <h2>{{ i18n "service_pulmonologist_check_up_in_the_apichamber_title" }}</h2>
+            <p>{{ i18n "service_pulmonologist_check_up_in_the_apichamber_description" }}</p>
           </li>
         </ul>
 
-        <a role="button" tabindex="0" href="/services" style="align-self: flex-start;">Сазнај више</a>
+        <a role="button" tabindex="0" href="{{ "/services/" | relLangURL }}" style="align-self: flex-start;">{{ i18n "go_to_services" }}</a>
       </div>
 
       <div class="services__caption-img services__caption-img--mobile-hidden services__caption-img--align-left">
@@ -130,21 +108,13 @@
     <div class="grid">
       <div>
         <div class="about__caption">
-          <h2>О нама</h2>
-          <p>
-            Наш апи-центар је јединствено место које спаја древна знања о благотворним ефектима пчелиње заједнице са савременим технолошким решењима за очување здравља и добробити. У окружењу испуњеном природним аеросолима, негативним јонима и умирујућим звуком кошница, пружамо простор за опуштање, регенерацију и рад.
-          </p>
-          <h2>Техничке карактеристике центра</h2>
+          <h2>{{ i18n "about_title" }}</h2>
+          <p>{{ i18n "about_subtitle" }}</p>
+          <h3>{{ i18n "about_caption_title" }}</h3>
           <ul>
-            <li>
-              Апикоморе су специјално дизајнирани објекти од белог бора, изоловани овчијом вуном, са унутрашњом облогом од прополиса и еколошким премазом за природну заштиту и здраву микроклиму.
-            </li>
-            <li>
-              Оптички интернет обезбеђује брзу и стабилну конекцију за несметан рад у природи.
-            </li>
-            <li>
-              Апикоморе су пројектоване тако да буду приступачне свима, укључујући особе у инвалидским колицима. Захваљујући мобилним рампама, омогућен је несметан приступ и удобно коришћење простора.
-            </li>
+            <li>{{ i18n "about_caption_feature_item_1" }}</li>
+            <li>{{ i18n "about_caption_feature_item_2" }}</li>
+            <li>{{ i18n "about_caption_feature_item_3" }}</li>
           </ul>
         </div>
       </div>

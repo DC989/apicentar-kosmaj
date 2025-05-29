@@ -61,6 +61,78 @@ main {
     }
   }
 
+  .therapies {
+    background-color: #f8f5e1;
+    padding: 45px 0 50px;
+
+    @include breakpoint("md") {
+      padding: 85px 0 90px;
+    }
+
+    &__caption {
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    &__caption-img {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__caption-img--mobile-visible {
+      @include breakpoint("lg") {
+        display: none;
+      }
+    }
+
+    &__caption-img--mobile-hidden {
+      display: none;
+
+      @include breakpoint("lg") {
+        display: flex;
+      }
+    }
+
+    &__caption-img--align-right {
+      @include breakpoint("lg") {
+        align-items: end;
+      }
+    }
+
+    &__caption-img--align-left {
+      @include breakpoint("lg") {
+        align-items: start;
+      }
+    }
+
+    h2,
+    p {
+      --pico-p-color: #643a00;
+      color: var(--pico-p-color);
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+        list-style: none;
+      }
+    }
+
+    &__caption-text {
+      @include breakpoint("md") {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+      }
+    }
+  }
+
   .services {
     background-color: #f8f5e1;
     padding: 45px 0 50px;

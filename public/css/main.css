@@ -2886,12 +2886,25 @@ gmp-map {
 }
 
 header {
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; */
   position: relative;
   max-width: none !important;
   margin: 0 !important;
   padding: 16px !important;
+  /* & > ul {
+    margin: 0 0 0 16px;
+    padding: 0;
+
+    & > li {
+      list-style: none;
+    }
+  } */
 }
 header nav {
+  flex-grow: 1;
   align-items: center;
 }
 @media (min-width: 768px) {
@@ -2914,7 +2927,7 @@ header nav ul:first-of-type li a {
   padding: 0 !important;
 }
 @media (max-width: 767px) {
-  header nav ul:last-of-type {
+  header nav ul.header__nav-menu {
     width: 100%;
     position: absolute;
     top: 100%;
@@ -2930,11 +2943,11 @@ header nav ul:first-of-type li a {
     transition: max-height 0.3s ease-in-out;
   }
 }
-header nav ul:last-of-type li a {
+header nav ul.header__nav-menu li a {
   --pico-color: var(--pico-color);
 }
 @media (max-width: 767px) {
-  header nav ul:last-of-type li a {
+  header nav ul.header__nav-menu li a {
     display: block;
   }
 }
@@ -2998,6 +3011,69 @@ main .splash__caption {
 main .splash__caption h1,
 main .splash__caption p {
   color: #fff !important;
+}
+main .therapies {
+  background-color: #f8f5e1;
+  padding: 45px 0 50px;
+}
+@media (min-width: 768px) {
+  main .therapies {
+    padding: 85px 0 90px;
+  }
+}
+main .therapies__caption {
+  margin-bottom: 50px;
+  text-align: center;
+}
+main .therapies__caption-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  main .therapies__caption-img--mobile-visible {
+    display: none;
+  }
+}
+main .therapies__caption-img--mobile-hidden {
+  display: none;
+}
+@media (min-width: 1024px) {
+  main .therapies__caption-img--mobile-hidden {
+    display: flex;
+  }
+}
+@media (min-width: 1024px) {
+  main .therapies__caption-img--align-right {
+    align-items: end;
+  }
+}
+@media (min-width: 1024px) {
+  main .therapies__caption-img--align-left {
+    align-items: start;
+  }
+}
+main .therapies h2,
+main .therapies p {
+  --pico-p-color: #643a00;
+  color: var(--pico-p-color);
+}
+main .therapies ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+main .therapies ul li {
+  list-style: none;
+}
+@media (min-width: 768px) {
+  main .therapies__caption-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
 }
 main .services {
   background-color: #f8f5e1;

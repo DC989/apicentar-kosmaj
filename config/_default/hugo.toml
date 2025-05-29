@@ -1,16 +1,60 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'Apicentar Kosmaj'
-watch = true
-[menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
+languageCode = 'sr'
+title = 'Апицентар Космај'
+# START --> Internacionalization configuration block.
+
+defaultContentLanguage = "sr"
+[languages]
+  [languages.sr]
+    languageName = "Српски"
+    weight = 1
+    contentDir = "content/sr"
+    title = "Апи комора Космај"
+
+    [[languages.sr.menu.main]]
+    name = "Почетна"
     url = "/"
     weight = 1
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
+    [[languages.sr.menu.main]]
+    name = "Терапије"
+    url = "/therapies/"
     weight = 2
+
+    [[languages.sr.menu.main]]
+    name = "Услуге"
+    url = "/services/"
+    weight = 3
+
+    [[languages.sr.menu.main]]
+    name = "Галерија"
+    url = "/gallery/"
+    weight = 4
+
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    contentDir = "content/en"
+    title = "Api chamber Kosmaj"
+
+    [[languages.en.menu.main]]
+    name = "Home"
+    url = "/en/"
+    weight = 1
+
+    [[languages.en.menu.main]]
+    name = "Therapies"
+    url = "/en/therapies/"
+    weight = 2
+
+    [[languages.en.menu.main]]
+    name = "Services"
+    url = "/en/services/"
+    weight = 3
+
+    [[languages.en.menu.main]]
+    name = "Gallery"
+    url = "/en/gallery/"
+    weight = 4
+
+# END <-- Internacionalization configuration block.

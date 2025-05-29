@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Апицентар Космај</title>
+    <link>http://localhost:1313/sr/about/</link>
+    <description>Recent content in Abouts on Апицентар Космај</description>
+    <generator>Hugo</generator>
+    <language>sr</language>
+    <lastBuildDate>Fri, 18 Apr 2025 15:17:13 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/sr/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/sr/about/about/</link>
+      <pubDate>Fri, 18 Apr 2025 15:17:13 +0200</pubDate>
+      <guid>http://localhost:1313/sr/about/about/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

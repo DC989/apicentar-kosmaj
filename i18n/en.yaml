@@ -1,0 +1,111 @@
+# Index page translations for a website in English
+# .splash section
+- id: index_title
+  translation: "Apitherapy in the service of health"
+
+- id: index_subtitle
+  translation: "Apitherapy is a branch of complementary and alternative medicine that uses bee products, including honey, pollen, bee bread, propolis, royal jelly, beeswax, bee venom, sound, vibration, and bee larvae."
+
+# .therapies section
+- id: therapies_title
+  translation: "Therapies at the apicenter"
+
+- id: therapies_subtitle
+  translation: "Experience the powerful benefits of the bee community and feel the positive effects of apitherapy on your health."
+
+- id: therapy_hive_air_title
+  translation: "Hive air"
+
+- id: therapy_hive_air_description
+  translation: "Inhaling air from the hive, rich in natural aerosols and bioactive substances, has a positive effect on the respiratory system, nervous system, and overall physical and mental health."
+
+- id: therapy_vibrations_title
+  translation: "Vibrations"
+
+- id: therapy_vibrations_description
+  translation: "The vibrations of bees act like a natural micro-massage that promotes body regeneration, deep relaxation, and energy renewal, with an effect comparable to eight hours of sleep."
+
+- id: therapy_sound_title
+  translation: "Sound"
+
+- id: therapy_sound_description
+  translation: "The sound of the hive, similar to white noise, has a calming effect on the body and mind, reduces stress, and supports mental clarity."
+
+- id: therapy_negative_ions_title
+  translation: "Negative ions"
+
+- id: therapy_negative_ions_description
+  translation: "Negative ions in the air around the hive support detoxification, strengthen the immune system, and help improve sleep and mental balance."
+
+# .services section
+- id: services_title
+  translation: "Innovative services in the world of apitherapy"
+
+- id: service_working_in_the_apichamber_title
+  translation: "Working"
+
+- id: service_working_in_the_apichamber_description
+  translation: "Working in the apichamber combines the healing power of nature with fast internet, boosting focus, creativity, and inner balance."
+
+- id: service_overnight_stay_in_the_apichamber_title
+  translation: "Overnight stay"
+
+- id: service_overnight_stay_in_the_apichamber_description
+  translation: "Spending the night in the apichamber supports deep sleep and body regeneration thanks to the calming hive sounds and air rich in natural aerosols and negative ions."
+
+- id: service_vocal_cords_recovery_treatment_title
+  translation: "Vocal cords recovery treatment"
+
+- id: service_vocal_cords_recovery_treatment_description
+  translation: "Apichambers offer natural hydration and recovery for the vocal cords, ideal for singers, actors, and anyone who uses their voice intensely."
+
+- id: service_team_building_title
+  translation: "Team building"
+
+- id: service_team_building_description
+  translation: "Team building in the apichamber brings together nature and apitherapy with activities that strengthen cooperation, focus, and team spirit."
+
+- id: service_pulmonologist_check_up_in_the_apichamber_title
+  translation: "Pulmonologist check-up"
+
+- id: service_pulmonologist_check_up_in_the_apichamber_description
+  translation: "A special service offering a pulmonologist’s check-up provides a personal respiratory health assessment and therapy suggestions based on the benefits of the apichamber."
+
+# .about section
+- id: about_title
+  translation: "About us"
+
+- id: about_subtitle
+  translation: "Our Apicenter is a unique place that blends ancient knowledge of the healing effects of the bee community with modern technology to support health and well-being. In an environment filled with natural aerosols, negative ions, and the calming sound of hives, we offer a space for relaxation, recovery, and work."
+
+- id: about_caption_title
+  translation: "Technical features of the center"
+
+- id: about_caption_feature_item_1
+  translation: "Apichambers are specially designed structures made from white pine, insulated with sheep wool, lined with propolis inside, and coated with eco-friendly materials to ensure natural protection and a healthy microclimate."
+
+- id: about_caption_feature_item_2
+  translation: "Fiber-optic internet provides fast and stable connectivity for uninterrupted work in nature."
+
+- id: about_caption_feature_item_3
+  translation: "The apichambers are designed to be accessible to everyone, including people in wheelchairs. Mobile ramps allow easy access and comfortable use of the space."
+
+# Navigation links translations for a website in English
+- id: home
+  translation: "Home"
+
+- id: therapies
+  translation: "Therapies"
+
+- id: services
+  translation: "Services"
+
+- id: gallery
+  translation: "Gallery"
+
+# Buttons translations for a website in English
+- id: go_to_services
+  translation: "Learn more"
+
+- id: go_to_therapies
+  translation: "Learn more"
