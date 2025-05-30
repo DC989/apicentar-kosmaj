@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'sr'
-title = 'Апицентар Космај'
+title = 'Апицентар Космај - Апитерапија у служби здравља'
 # START --> Internacionalization configuration block.
 
 defaultContentLanguage = "sr"
@@ -9,7 +9,7 @@ defaultContentLanguage = "sr"
     languageName = "Српски"
     weight = 1
     contentDir = "content/sr"
-    title = "Апи комора Космај"
+    title = "Апицентар Космај - Апитерапија у служби здравља"
 
     [[languages.sr.menu.main]]
     name = "Почетна"
@@ -35,7 +35,7 @@ defaultContentLanguage = "sr"
     languageName = "English"
     weight = 2
     contentDir = "content/en"
-    title = "Api chamber Kosmaj"
+    title = "Apitherapy center Kosmaj - Apitherapy in the service of health"
 
     [[languages.en.menu.main]]
     name = "Home"

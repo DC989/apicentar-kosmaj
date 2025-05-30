@@ -1,7 +1,7 @@
 +++
 date = '2025-05-15T14:54:11+02:00'
 draft = false
-title = 'Therapies'
+title = 'Терапије - Апицентар Космај'
 type = 'miscellaneous'
 +++
 
