@@ -27,32 +27,59 @@
       <p>{{ i18n "therapies_subtitle" }}</p>
     </div>
 
-    <div class="grid">
-      <div class="therapies__caption-img therapies__caption-img--align-right">
-        <img style="max-width: 455px;" src="{{ "images/therapies-resizeee.jpeg" | absURL }}" alt="a kid doing hive air inhalation" />
+    <div class="therapies__item">
+      <div class="therapies__item-img">
+        <img src="{{ "images/inhalacija.jpeg" | absURL }}" alt="inhalation tool" />
       </div>
 
-      <div class="therapies__caption-text">
-        <ul>
-          <li>
-            <h2>{{ i18n "therapy_hive_air_title" }}</h2>
-            <p>{{ i18n "therapy_hive_air_description" }}</p>
-          </li>
-          <li>
-            <h2>{{ i18n "therapy_vibrations_title" }}</h2>
-            <p>{{ i18n "therapy_vibrations_description" }}</p>
-          </li>
-          <li>
-            <h2>{{ i18n "therapy_sound_title" }}</h2>
-            <p>{{ i18n "therapy_sound_description" }}</p>
-          </li>
-          <li>
-            <h2>{{ i18n "therapy_negative_ions_title" }}</h2>
-            <p>{{ i18n "therapy_negative_ions_description" }}</p>
-          </li>
-        </ul>
+      <div class="therapies__item-text">
+        <h2>{{ i18n "therapy_hive_air_title" }}</h2>
+        <p>{{ i18n "therapy_hive_air_description" }}</p>
+        <a role="button" href="{{ "/therapies/" | relLangURL }}">
+          {{ i18n "go_to_services" }}
+        </a>
+      </div>
+    </div>
 
-        <a role="button" tabindex="0" href="{{ "/therapies/" | relLangURL }}" style="align-self: flex-start;">{{ i18n "go_to_therapies" }}</a>
+    <div class="therapies__item therapies__item--margin-top therapies__item--reverse">
+      <div class="therapies__item-img">
+        <img src="{{ "images/lezanje.jpeg" | absURL }}" alt="bad on top of the bee hives" />
+      </div>
+
+      <div class="therapies__item-text therapies__item-text--reverse">
+        <h2>{{ i18n "therapy_vibrations_title" }}</h2>
+        <p>{{ i18n "therapy_vibrations_description" }}</p>
+        <a role="button" href="{{ "/therapies/" | relLangURL }}">
+          {{ i18n "go_to_services" }}
+        </a>
+      </div>
+    </div>
+
+    <div class="therapies__item">
+      <div class="therapies__item-img">
+        <img src="{{ "images/zvuk.jpeg" | absURL }}" alt="bee hives" />
+      </div>
+
+      <div class="therapies__item-text">
+        <h2>{{ i18n "therapy_sound_title" }}</h2>
+        <p>{{ i18n "therapy_sound_description" }}</p>
+        <a role="button" href="{{ "/therapies/" | relLangURL }}">
+          {{ i18n "go_to_services" }}
+        </a>
+      </div>
+    </div>
+
+    <div class="therapies__item therapies__item--margin-top therapies__item--reverse">
+      <div class="therapies__item-img">
+        <img src="{{ "images/joni.jpeg" | absURL }}" alt="bad and bee hives in api-chamber" />
+      </div>
+
+      <div class="therapies__item-text therapies__item-text--reverse">
+        <h2>{{ i18n "therapy_negative_ions_title" }}</h2>
+        <p>{{ i18n "therapy_negative_ions_description" }}</p>
+        <a role="button" href="{{ "/therapies/" | relLangURL }}">
+          {{ i18n "go_to_services" }}
+        </a>
       </div>
     </div>
   </div>
