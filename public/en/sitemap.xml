@@ -2,80 +2,80 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://apicentarkosmaj.rs/en/</loc>
     <lastmod>2025-05-23T00:12:48+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="sr"
-                href="http://localhost:1313/"
+                href="https://apicentarkosmaj.rs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://apicentarkosmaj.rs/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/gallery/</loc>
+    <loc>https://apicentarkosmaj.rs/en/gallery/</loc>
     <lastmod>2025-05-23T00:12:48+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="sr"
-                href="http://localhost:1313/gallery/"
+                href="https://apicentarkosmaj.rs/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/gallery/"
+                href="https://apicentarkosmaj.rs/en/gallery/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/services/</loc>
+    <loc>https://apicentarkosmaj.rs/en/services/</loc>
     <lastmod>2025-05-15T16:01:59+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="sr"
-                href="http://localhost:1313/services/"
+                href="https://apicentarkosmaj.rs/services/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/services/"
+                href="https://apicentarkosmaj.rs/en/services/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/therapies/</loc>
+    <loc>https://apicentarkosmaj.rs/en/therapies/</loc>
     <lastmod>2025-05-15T14:54:11+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="sr"
-                href="http://localhost:1313/therapies/"
+                href="https://apicentarkosmaj.rs/therapies/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/therapies/"
+                href="https://apicentarkosmaj.rs/en/therapies/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>https://apicentarkosmaj.rs/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="sr"
-                href="http://localhost:1313/categories/"
+                href="https://apicentarkosmaj.rs/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://apicentarkosmaj.rs/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>https://apicentarkosmaj.rs/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="sr"
-                href="http://localhost:1313/tags/"
+                href="https://apicentarkosmaj.rs/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://apicentarkosmaj.rs/en/tags/"
                 />
   </url>
 </urlset>
