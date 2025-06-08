@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Апицентар Космај - Апитерапија у служби здравља</title>
-    <link>https://apicentarkosmaj.rs/tags/</link>
+    <link>https://www.apicentarkosmaj.rs/tags/</link>
     <description>Recent content in Tags on Апицентар Космај - Апитерапија у служби здравља</description>
     <generator>Hugo</generator>
     <language>sr</language>
-    <atom:link href="https://apicentarkosmaj.rs/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.apicentarkosmaj.rs/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
