@@ -75,8 +75,11 @@
 - id: about_title
   translation: "About us"
 
-- id: about_subtitle
+- id: about_subtitle_1
   translation: "Our Apicenter is a unique place that blends ancient knowledge of the healing effects of the bee community with modern technology to support health and well-being. In an environment filled with natural aerosols, negative ions, and the calming sound of hives, we offer a space for relaxation, recovery, and work."
+
+- id: about_subtitle_2
+  translation: "Our team includes experts in apitherapy, medicine, ecology, and spatial design. Our work is based on the latest scientific research and traditional methods of natural healing."
 
 - id: about_caption_title
   translation: "Technical features of the center"
@@ -108,4 +111,7 @@
   translation: "Learn more"
 
 - id: go_to_therapies
+  translation: "Learn more"
+
+- id: go_to_about
   translation: "Learn more"

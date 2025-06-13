@@ -3255,6 +3255,20 @@ main .about__caption li {
   }
 }
 
+#about ul:last-of-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: -7.5px;
+  padding: 0;
+}
+#about ul:last-of-type li {
+  list-style: none;
+  padding: 7.5px;
+}
+
 footer {
   max-width: none !important;
   margin: 0 !important;
