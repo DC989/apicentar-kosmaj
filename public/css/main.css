@@ -3255,6 +3255,14 @@ main .about__caption li {
   }
 }
 
+#about ul:first-of-type {
+  margin: -7.5px;
+  list-style: none;
+}
+#about ul:first-of-type li {
+  list-style: circle;
+  color: #643a00 !important;
+}
 #about ul:last-of-type {
   display: flex;
   flex-direction: row;
@@ -3265,7 +3273,6 @@ main .about__caption li {
   padding: 0;
 }
 #about ul:last-of-type li {
-  list-style: none;
   padding: 7.5px;
 }
 
@@ -3276,6 +3283,11 @@ footer {
   color: #fff !important;
 }
 footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 }

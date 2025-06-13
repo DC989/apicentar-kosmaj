@@ -340,6 +340,16 @@ main {
 }
 
 #about {
+  ul:first-of-type {
+    margin: -7.5px;
+    list-style: none;
+
+    li {
+      list-style: circle;
+      color: #643a00 !important;
+    }
+  }
+
   ul:last-of-type {
     display: flex;
     flex-direction: row;
@@ -350,7 +360,6 @@ main {
     padding: 0;
 
     li {
-      list-style: none;
       padding: 7.5px;
     }
   }
