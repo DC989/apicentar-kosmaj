@@ -32,9 +32,14 @@ defaultContentLanguage = "sr"
     weight = 4
 
     [[languages.sr.menu.main]]
+    name = "Ценовник"
+    url = "/pricing/"
+    weight = 5
+
+    [[languages.sr.menu.main]]
     name = "О нама"
     url = "/about/"
-    weight = 5
+    weight = 6
 
   [languages.en]
     languageName = "English"
@@ -63,8 +68,13 @@ defaultContentLanguage = "sr"
     weight = 4
 
     [[languages.en.menu.main]]
+    name = "Pricing"
+    url = "/en/pricing/"
+    weight = 5
+
+    [[languages.en.menu.main]]
     name = "About"
     url = "/en/about/"
-    weight = 5
+    weight = 6
 
 # END <-- Internacionalization configuration block.
