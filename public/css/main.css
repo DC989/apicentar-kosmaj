@@ -3274,6 +3274,7 @@ main .about__caption li {
 }
 #about ul:last-of-type li {
   padding: 7.5px;
+  list-style: none;
 }
 
 footer {

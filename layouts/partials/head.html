@@ -14,6 +14,16 @@
 </script>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+{{ if .Description }}
+<meta name="description" content="{{ .Description }}" />
+{{ else if .IsPage }}
+<meta name="description" content="{{ .Summary | plainify }}" />
+{{ else }}
+<meta
+  name="description"
+  content="Апи центар Космај је јединствен центар за апитерапију који спаја лековиту моћ пчела са савременом технологијом. Искуство природне регенерације, терапије кошницама и сертификованих велнес услуга у мирном шумском окружењу."
+/>
+{{ end }}
 <title>
   {{ if .IsHome }} {{ .Site.Title }} {{ else }} {{ .Title }} {{ end }}
 </title>
