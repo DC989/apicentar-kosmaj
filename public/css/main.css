@@ -3145,6 +3145,15 @@ main .about__caption li {
   list-style: circle;
   color: #643a00 !important;
 }
+main .about iframe {
+  width: 100%;
+  height: 400px;
+}
+@media (min-width: 768px) {
+  main .about iframe {
+    height: 600px;
+  }
+}
 
 .gallery {
   /* Create four equal columns that sits next to each other */
@@ -3253,28 +3262,6 @@ main .about__caption li {
   .gallery .modal-content {
     width: 100%;
   }
-}
-
-#about ul:first-of-type {
-  margin: -7.5px;
-  list-style: none;
-}
-#about ul:first-of-type li {
-  list-style: circle;
-  color: #643a00 !important;
-}
-#about ul:last-of-type {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: -7.5px;
-  padding: 0;
-}
-#about ul:last-of-type li {
-  padding: 7.5px;
-  list-style: none;
 }
 
 footer {
