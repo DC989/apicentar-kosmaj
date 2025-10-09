@@ -2,106 +2,106 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:52957/</loc>
     <lastmod>2025-06-13T19:37:46+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="http://localhost:52957/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sr"
-                href="http://localhost:1313/"
+                href="http://localhost:52957/"
                 />
   </url><url>
-    <loc>http://localhost:1313/pricing/</loc>
+    <loc>http://localhost:52957/pricing/</loc>
     <lastmod>2025-06-13T19:37:46+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/pricing/"
+                href="http://localhost:52957/en/pricing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sr"
-                href="http://localhost:1313/pricing/"
+                href="http://localhost:52957/pricing/"
                 />
   </url><url>
-    <loc>http://localhost:1313/gallery/</loc>
+    <loc>http://localhost:52957/gallery/</loc>
     <lastmod>2025-05-23T00:12:48+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/gallery/"
+                href="http://localhost:52957/en/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sr"
-                href="http://localhost:1313/gallery/"
+                href="http://localhost:52957/gallery/"
                 />
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:52957/about/</loc>
     <lastmod>2025-05-15T16:01:59+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/about/"
+                href="http://localhost:52957/en/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sr"
-                href="http://localhost:1313/about/"
+                href="http://localhost:52957/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/services/</loc>
+    <loc>http://localhost:52957/services/</loc>
     <lastmod>2025-05-15T16:01:59+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/services/"
+                href="http://localhost:52957/en/services/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sr"
-                href="http://localhost:1313/services/"
+                href="http://localhost:52957/services/"
                 />
   </url><url>
-    <loc>http://localhost:1313/therapies/</loc>
+    <loc>http://localhost:52957/therapies/</loc>
     <lastmod>2025-05-15T14:54:11+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/therapies/"
+                href="http://localhost:52957/en/therapies/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sr"
-                href="http://localhost:1313/therapies/"
+                href="http://localhost:52957/therapies/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:52957/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="http://localhost:52957/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sr"
-                href="http://localhost:1313/categories/"
+                href="http://localhost:52957/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:52957/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="http://localhost:52957/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="sr"
-                href="http://localhost:1313/tags/"
+                href="http://localhost:52957/tags/"
                 />
   </url>
 </urlset>

@@ -3264,6 +3264,10 @@ main .about iframe {
   }
 }
 
+.page-about .main {
+  background-color: #f0f0f0;
+}
+
 footer {
   max-width: none !important;
   margin: 0 !important;

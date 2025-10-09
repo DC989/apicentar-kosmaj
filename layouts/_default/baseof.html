@@ -3,7 +3,9 @@
   <head>
     {{ partial "head" . }}
   </head>
-  <body>
+  <body
+    class="page-{{ if .IsHome }}index{{ else }}{{ .File.ContentBaseName }}{{ end }}"
+  >
     <header class="header">{{ partial "header.html" . }}</header>
     <main class="main">{{ block "main" . }}{{ end }}</main>
     <footer class="footer">{{ partial "footer.html" . }}</footer>

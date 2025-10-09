@@ -213,7 +213,7 @@ main {
     iframe {
       width: 100%;
       height: 400px;
-  
+
       @include breakpoint("md") {
         height: 600px;
       }
@@ -345,5 +345,11 @@ main {
     .modal-content {
       width: 100%;
     }
+  }
+}
+
+.page-about {
+  .main {
+    background-color: #f0f0f0;
   }
 }
