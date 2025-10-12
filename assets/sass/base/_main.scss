@@ -1,5 +1,11 @@
 @use "../utils/breakpoints" as *;
 
+body:not(.page-index) {
+  header {
+    border-bottom: var(--pico-button-bg-color) 1px solid;
+  }
+}
+
 main {
   max-width: none !important;
   margin: 0 !important;
@@ -350,6 +356,24 @@ main {
 
 .page-about {
   .main {
-    background-color: #f0f0f0;
+    ul:first-of-type {
+      li {
+        color: #643a00 !important;
+      }
+    }
+    ul:last-of-type {
+      display: flex !important;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 0 !important;
+      padding: 0 !important;
+
+      li {
+        margin: 7.5px !important;
+        list-style: none !important;
+      }
+    }
   }
 }

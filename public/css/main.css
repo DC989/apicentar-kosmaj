@@ -2952,6 +2952,10 @@ header nav ul.header__nav-menu li a {
   }
 }
 
+body:not(.page-index) header {
+  border-bottom: var(--pico-button-bg-color) 1px solid;
+}
+
 main {
   max-width: none !important;
   margin: 0 !important;
@@ -3264,8 +3268,21 @@ main .about iframe {
   }
 }
 
-.page-about .main {
-  background-color: #f0f0f0;
+.page-about .main ul:first-of-type li {
+  color: #643a00 !important;
+}
+.page-about .main ul:last-of-type {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.page-about .main ul:last-of-type li {
+  margin: 7.5px !important;
+  list-style: none !important;
 }
 
 footer {
