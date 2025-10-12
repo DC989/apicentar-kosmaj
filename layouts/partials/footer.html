@@ -1,25 +1,19 @@
 <div class="container">
-  <div class="grid">
-    <div>
-      <nav>
-        <ul>
-          {{ range .Site.Menus.main }}
-          <li>
-            <a href="{{ .URL | relLangURL }}" class="contrast">{{ .Name }}</a>
-          </li>
-          {{ end }}
-        </ul>
-      </nav>
-    </div>
+  <nav class="footer__nav">
+    <ul>
+      {{ range .Site.Menus.main }}
+      <li>
+        <a href="{{ .URL | relLangURL }}" class="contrast">{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul>
 
     <div>
-      <div>apicentarkosmaj@gmail.com</div>
-      <div style="margin: 10px 0">+38163270636</div>
-      <a
-        style="display: inline-block"
-        target="_blank"
-        href="https://www.instagram.com/apicentar_kosmaj/"
+      <a target="_blank" href="tel:+38163270636">+38163270636</a>
+      <a target="_blank" href="mailto:apicentarkosmaj@gmail.com"
+        >apicentarkosmaj@gmail.com</a
       >
+      <a target="_blank" href="https://www.instagram.com/apicentar_kosmaj/">
         <img
           style="max-width: 20px"
           src="/images/instagram.svg"
@@ -27,5 +21,5 @@
         />
       </a>
     </div>
-  </div>
+  </nav>
 </div>

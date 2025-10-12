@@ -1,23 +1,68 @@
-footer {
+@use "../utils/breakpoints" as *;
+
+.footer {
   max-width: none !important;
   margin: 0 !important;
   background-color: #643a00;
   color: #fff !important;
 
+  &__nav > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1;
+    margin: -10px !important;
+
+    @include breakpoint("lg") {
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+
+    & > a {
+      margin: 10px !important;
+      color: #fff !important;
+      text-decoration: none !important;
+
+      &:hover,
+      &:focus {
+        text-decoration: underline !important;
+      }
+    }
+  }
+
   ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
+    flex: 1;
+    margin: -5px !important;
+    padding: 0 !important;
+
+    @include breakpoint("lg") {
+      flex-direction: row;
+    }
 
     li {
+      margin: 5px !important;
+      padding: 0 !important;
       list-style: none;
 
+      &::before {
+        display: none !important;
+      }
+
       a {
+        margin: 0 !important;
+        padding: 0 !important;
         color: #fff !important;
+
+        &:hover,
+        &:focus {
+          text-decoration: underline !important;
+        }
       }
     }
   }

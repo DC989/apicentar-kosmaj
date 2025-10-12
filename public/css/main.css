@@ -3285,26 +3285,64 @@ main .about iframe {
   list-style: none !important;
 }
 
-footer {
+.footer {
   max-width: none !important;
   margin: 0 !important;
   background-color: #643a00;
   color: #fff !important;
 }
-footer ul {
+.footer__nav > div {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
+  align-items: flex-start;
+  flex: 1;
+  margin: -10px !important;
 }
-footer ul li {
+@media (min-width: 1024px) {
+  .footer__nav > div {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
+.footer__nav > div > a {
+  margin: 10px !important;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+.footer__nav > div > a:hover, .footer__nav > div > a:focus {
+  text-decoration: underline !important;
+}
+.footer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: -5px !important;
+  padding: 0 !important;
+}
+@media (min-width: 1024px) {
+  .footer ul {
+    flex-direction: row;
+  }
+}
+.footer ul li {
+  margin: 5px !important;
+  padding: 0 !important;
   list-style: none;
 }
-footer ul li a {
+.footer ul li::before {
+  display: none !important;
+}
+.footer ul li a {
+  margin: 0 !important;
+  padding: 0 !important;
   color: #fff !important;
+}
+.footer ul li a:hover, .footer ul li a:focus {
+  text-decoration: underline !important;
 }
 
 /*# sourceMappingURL=main.css.map */
