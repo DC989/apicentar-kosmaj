@@ -1,3 +1,9 @@
+# Header translations for a website in English
+- id: body_info_title
+  translation: "Season 2025 is over."
+- id: body_info_subtitle
+  translation: "Thank you for being with us this season! We'll see each other and hang out from April 2026."
+
 # Index page translations for a website in English
 # .splash section
 - id: index_title

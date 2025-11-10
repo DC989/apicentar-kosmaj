@@ -2956,6 +2956,21 @@ body:not(.page-index) header {
   border-bottom: var(--pico-button-bg-color) 1px solid;
 }
 
+.body-info {
+  background-color: #643a00;
+  text-align: center;
+  padding: 10px;
+}
+.body-info__title {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #e8b923;
+}
+.body-info__subtitle {
+  font-size: 1em;
+  color: #e8b923;
+}
+
 main {
   max-width: none !important;
   margin: 0 !important;

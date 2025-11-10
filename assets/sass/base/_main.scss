@@ -6,6 +6,23 @@ body:not(.page-index) {
   }
 }
 
+.body-info {
+  background-color: #643a00;
+  text-align: center;
+  padding: 10px;
+
+  &__title {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #e8b923;
+  }
+
+  &__subtitle {
+    font-size: 1em;
+    color: #e8b923;
+  }
+}
+
 main {
   max-width: none !important;
   margin: 0 !important;
