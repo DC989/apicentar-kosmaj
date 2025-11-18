@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apitherapy center Kosmaj - Apitherapy in the service of health</title>
-    <link>http://localhost:1313/en/</link>
+    <link>https://www.apicentarkosmaj.rs/en/</link>
     <description>Recent content on Apitherapy center Kosmaj - Apitherapy in the service of health</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 13 Jun 2025 19:37:38 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.apicentarkosmaj.rs/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pricing - Apitherapy center Kosmaj</title>
-      <link>http://localhost:1313/en/pricing/</link>
+      <link>https://www.apicentarkosmaj.rs/en/pricing/</link>
       <pubDate>Fri, 13 Jun 2025 19:37:38 +0200</pubDate>
-      <guid>http://localhost:1313/en/pricing/</guid>
-      <description>&lt;h2 id=&#34;pricing&#34;&gt;Pricing&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/pricing-60.jpeg&#34; alt=&#34;pricing&#34;&gt;&lt;/p&gt;</description>
+      <guid>https://www.apicentarkosmaj.rs/en/pricing/</guid>
+      <description>&lt;h2 id=&#34;pricing&#34;&gt;Pricing&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.apicentarkosmaj.rs/images/pricing-60.jpeg&#34; alt=&#34;pricing&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gallery - Apitherapy center Kosmaj</title>
-      <link>http://localhost:1313/en/gallery/</link>
+      <link>https://www.apicentarkosmaj.rs/en/gallery/</link>
       <pubDate>Fri, 23 May 2025 00:12:48 +0200</pubDate>
-      <guid>http://localhost:1313/en/gallery/</guid>
+      <guid>https://www.apicentarkosmaj.rs/en/gallery/</guid>
       <description>&lt;h2 id=&#34;gallery&#34;&gt;Gallery&lt;/h2&gt;</description>
     </item>
     <item>
       <title>About - Apitherapy center Kosmaj</title>
-      <link>http://localhost:1313/en/about/</link>
+      <link>https://www.apicentarkosmaj.rs/en/about/</link>
       <pubDate>Thu, 15 May 2025 16:01:59 +0200</pubDate>
-      <guid>http://localhost:1313/en/about/</guid>
+      <guid>https://www.apicentarkosmaj.rs/en/about/</guid>
       <description>&lt;h2 id=&#34;who-we-are&#34;&gt;Who we are&lt;/h2&gt;&#xA;&lt;p&gt;Apicenter is an apitherapy center born out of a love for nature, bees, and a holistic approach to health. We&amp;rsquo;re located in an environment that offers ideal conditions to connect with nature and experience the benefits of bee products through our modern apicabins.&lt;/p&gt;&#xA;&lt;p&gt;Our team includes experts in apitherapy, medicine, ecology, and spatial design. Our work is based on the latest scientific research and traditional methods of natural healing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Services - Apitherapy center Kosmaj</title>
-      <link>http://localhost:1313/en/services/</link>
+      <link>https://www.apicentarkosmaj.rs/en/services/</link>
       <pubDate>Thu, 15 May 2025 16:01:59 +0200</pubDate>
-      <guid>http://localhost:1313/en/services/</guid>
+      <guid>https://www.apicentarkosmaj.rs/en/services/</guid>
       <description>&lt;h2 id=&#34;working&#34;&gt;Working&lt;/h2&gt;&#xA;&lt;p&gt;Take advantage of the peaceful and healing atmosphere of the apitherapy chamber for productive work. Surrounded by the natural sounds of bees and air enriched with bioactive substances and negative ions, you work in an environment that promotes focus, creativity, and mental clarity. High-speed optical internet is also provided, allowing seamless work, video conferencing, and uninterrupted online communication. This unique blend of nature and technology reduces stress, improves brain oxygenation, and contributes to inner balance.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Therapies - Apitherapy center Kosmaj</title>
-      <link>http://localhost:1313/en/therapies/</link>
+      <link>https://www.apicentarkosmaj.rs/en/therapies/</link>
       <pubDate>Thu, 15 May 2025 14:54:11 +0200</pubDate>
-      <guid>http://localhost:1313/en/therapies/</guid>
+      <guid>https://www.apicentarkosmaj.rs/en/therapies/</guid>
       <description>&lt;h2 id=&#34;hive-air&#34;&gt;Hive air&lt;/h2&gt;&#xA;&lt;p&gt;Air from a beehive is rich in natural aerosols and bioactive substances with antiseptic, antioxidant, and regenerative properties. These substances positively affect the respiratory system, immune system, and nervous system, reducing inflammation and promoting relaxation. When inhaled, the active compounds are absorbed into the body, improving metabolism, respiratory function, and reducing stress. The combination of natural aromatherapy and the soothing sound of bees enhances sleep, concentration, and mental well-being.&lt;/p&gt;</description>
     </item>
   </channel>

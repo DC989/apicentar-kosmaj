@@ -117,8 +117,17 @@ main {
     }
 
     &__item-img {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
       @include breakpoint("md") {
         width: 50%;
+      }
+
+      & > video {
+        width: 100%;
+        height: auto;
       }
     }
 
