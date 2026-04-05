@@ -7,4 +7,4 @@ type = 'miscellaneous'
 
 ## Ценовник
 
-![ценовник](/images/pricing-60.jpeg)
+![ценовник](/images/pricing.png)
