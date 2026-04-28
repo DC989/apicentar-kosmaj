@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ .Language.Lang }}" data-theme="light">
   <head>
     {{ partial "head" . }}
@@ -6,10 +6,6 @@
   <body
     class="page-{{ if .IsHome }}index{{ else }}{{ .File.ContentBaseName }}{{ end }}"
   >
-    <div class="body-info">
-      <div class="body-info__title">{{ i18n "body_info_title" }}</div>
-      <div class="body-info__subtitle">{{ i18n "body_info_subtitle" }}</div>
-    </div>
     <header class="header">{{ partial "header.html" . }}</header>
     <main class="main">{{ block "main" . }}{{ end }}</main>
     <footer class="footer">{{ partial "footer.html" . }}</footer>
@@ -19,10 +15,10 @@
         const menuToggle = document.querySelector(".header__menu-toggle");
         const navMenu = document.querySelector(".header__nav-menu");
         const hamburgerOpenIcon = document.querySelector(
-          ".header__menu-toggle-open-icon"
+          ".header__menu-toggle-open-icon",
         );
         const hamburgerCloseIcon = document.querySelector(
-          ".header__menu-toggle-close-icon"
+          ".header__menu-toggle-close-icon",
         );
 
         menuToggle.addEventListener("click", function () {
